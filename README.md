@@ -1,2 +1,3 @@
 # dio-desafio-git
-Desafio de projeto sobre git-github
+Repositorio criado para desafio
+[sintaxe](https://digitalinnovation.one/)
