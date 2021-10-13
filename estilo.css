@@ -1,0 +1,204 @@
+*{font-family: Trebuchet MS, sans-serif;
+padding: 0;
+margin: 0;
+
+}
+
+
+body{border: solid 1px black;
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background:url("imagens/bk.png");
+	
+}
+
+#container{
+	background: #20B2AA;
+	color: white;
+}
+
+.flex{display: flex;
+		max-width: 100%;
+	}
+.flex-item1{justify-content: center;
+
+
+	
+}
+
+.flex-item{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+.flex a:hover{background:white;color:#000080; padding: 5px 5px 5px 5px;}
+
+.centrao{
+	text-align: center;
+}
+
+.border{
+background: white;
+}
+
+.conteudo img{
+	width: 100px;
+	height: 100px;
+	padding-top: 8px;
+
+}
+
+.flex-conteudoinicio{
+		display: flex;
+		max-width: 100%;
+
+	}
+
+
+.flex-conteudo{
+	justify-content: center;
+	margin-top: 5px;
+	font-size: 18px;
+
+}
+
+.conteudo-item:hover{
+	background: #ADD8E6;
+	color: black;	
+}
+
+
+
+.conteudo-item{
+	width: 200px;
+	height: 200px;
+	border:solid 2px  BLACK;
+	text-align: center;
+	margin-right: 15px;
+	background-color: #fafcff;
+background: white;
+}
+
+.conteudo-item p {
+	color: #black;
+	font-weight: bolder;
+	margin-top: 15px;
+}
+
+
+footer{
+	background: #20B2AA;
+	color: white;
+	margin-top: 20px;
+}
+
+.conteudo2{
+	
+}
+
+.conteudo2 ul{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.conteudo2 ul li{
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: 600;
+}
+
+/*experiencia*/
+
+.exp-flex{
+	display: flex;
+	margin-left: 20px;
+}
+
+.exp-flex h2{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.exp h1{
+	text-align: center;
+}
+ .exp{
+
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 2%, rgba(42,222,165,0.9808298319327731) 100%);
+ }
+.exp01{ margin-left: 25px;
+}
+
+
+.f-a{
+	display: flex;
+	
+
+}
+
+.f-a h1{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.f-a1{
+	justify-content: center;
+}
+
+.container-fa{
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 2%, rgba(42,222,165,0.9808298319327731) 100%);}
+
+.lista-curso ul li{
+	margin-left: 25px;
+}
+
+.lista-curso span{
+	font-weight: 600;
+
+}
+
+.conteudo-formação{
+	display: flex;
+	margin-bottom: 20px;
+
+}
+
+
+
+.formação-flex{
+	flex-direction: column;
+	align-items:center ;
+}
+
+/*academica*/
+
+.academica-item{
+	margin-top: 10px;
+}
+
+
+
+/*contato*/
+
+.contato{
+	display: flex;
+
+}
+
+.contato1{
+	justify-content: center;
+
+}
+
+.contato-item{
+	margin-right: 20px;
+}
+
+.contato-item1{
+	margin-top: -10px;
+}
+
